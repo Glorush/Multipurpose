@@ -1,0 +1,200 @@
+@media all and (max-width: 1199px){
+	.banner-area {
+		background-size: 89rem 62rem;
+		background-position: 233% 60%;
+	}
+}
+
+@media all and (max-width: 1024px){
+	.banner-area {
+		background-size: 81rem 62rem;
+		background-position: 215% 60%;
+	}
+}
+@media all and (min-width: 992px){
+	.menu{
+		display:block;
+	}
+	.menu ul{
+		display:-webkit-box !important;
+		display:-ms-flexbox !important;
+		display:flex !important;
+	}
+	.toggle-menu-icon{
+		display:none;
+	}
+}
+@media all and (max-width: 991px){
+	.logo {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.logo > a {
+		font-size: 22px;
+		color: #000;
+	}
+	.menu {
+		padding: 3rem;
+	}
+	.menu ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.menu ul li {
+		padding: 2rem 0;
+		border-bottom: 1px solid #ddd;
+		width: 100%;
+		text-align: center;
+		margin:unset;
+	}
+	.menu ul li:last-child{
+		border-bottom:unset;
+	}
+	.menu {
+		display:none;
+	}
+	.banner-area {
+		background-size: 100rem 62rem;
+		background-position: 40rem 60%;
+	}
+	
+	.perfect-circles-area .per_ci_item .col-md-6:nth-child(odd) .perfect-circel-items{
+		padding-left:0px;
+	}
+	.perfect-circles-area .per_ci_item .col-md-6:nth-child(even) .perfect-circel-items{
+		padding-right:0px;
+		padding-left:60px;
+		padding-left: 6rem;
+	}
+	.carefully-car-content {
+		margin-top: 5rem;
+	}
+	
+	.testi-content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		text-align: center;
+	}
+	.testimonial p {
+		font-size: 35px;
+		margin-right:unset;
+	}
+	.testimonial-img {
+		margin-right: unset;
+		margin-top:2rem;
+	}
+	.testimonial span {
+		display: block;
+		text-align: center;
+	}
+	.blog-content-head p {
+		font-size: 13px;
+	}
+	.blog-content-body h2 {
+		font-size: 25px;
+	}
+}
+@media all and (max-width: 767px){
+	.banner-area {
+		background-size: 105rem 62rem;
+		background-position: -12rem 60%;
+	}
+	.banner-content h4, .banner-content h1, .banner-content p{
+		color:#fff;
+	}
+	.banner-form input[type="number"] {
+		box-shadow: 0px 3px 20px #000;
+	}
+	.perfect-circel-items{
+		text-align:center;
+	}
+	.perfect-circe-conten {
+		margin: 0 auto;
+	}
+	.perfect-circles-area .per_ci_item .col-md-6:nth-child(odd) .perfect-circel-items{
+		padding-left:3rem;
+	}
+	.perfect-circles-area .per_ci_item .col-md-6:nth-child(even) .perfect-circel-items{
+		padding-right:3rem;
+		padding-left:3rem;
+	}
+	.upcoming-event-area .col-md-6:nth-child(odd) {
+		padding-left: 1.5rem;
+	}
+	.upcoming-event-area .col-md-6:nth-child(even) {
+		padding-right: 1.5rem;
+	}
+	.team-member {
+		-ms-grid-columns: 1fr;
+		    grid-template-columns: 1fr;
+	}
+	.single-blog-items {
+		margin-bottom: 3rem;
+	}
+	.hero {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.hero p {
+		margin-bottom: 2rem;
+	}
+	.footer-area .col-md-4:not(:first-child){
+		margin-top:6rem;
+	}
+}
+@media all and (max-width: 575px){
+	.carefully-car-video {
+		height: 30rem;
+	}
+	h1 {
+		font-size: 3.4rem !important;
+		line-height:46px !important;
+	}
+	.section-padding{
+		padding:6rem 0;
+	}
+	.tema-items {
+		height: 15rem;
+	}
+}
+
+@media all and (max-width: 480px){
+	.banner-form form {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.hero-form form {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.banner-form input[type="number"],
+	.hero-form input[type="email"]{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.banner-form input[type="submit"],
+	.hero-form input[type="submit"]{
+		width: 100%;
+	}
+	.upcoint-item p a {
+		padding-left: 1rem;
+	}
+	
+}
