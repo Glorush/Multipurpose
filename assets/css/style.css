@@ -30,27 +30,29 @@
 }*/
 
 html{
-	font-size:62.5%;
+    font-size:62.5%;
 }
 
 body{
-	margin:0;
-	padding:0;
-	font-size:16px;
-	font-size:16px;
-	font-size:1.6rem;
-	font-family: 'Montserrat', sans-serif;
-	position:relative;
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-size:16px;
+    font-size:16px;
+    font-size:1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
  /*
     font-family: 'MontserratBold';
     font-family: 'MontserratSemiBold';
 */
 }
 h1, h2, h3, h4, h5, h6{
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 h1{
+    font-size:50px;
     font-size:50px;
     font-size:50px;
     font-size: 5rem;
@@ -64,34 +66,37 @@ h4{
     font-weight: 400;
 }
 ul{
-	margin:0;
-	padding:0;
-	list-style: none;
+    margin:0;
+    padding:0;
+    list-style: none;
 }
 a{
-	text-decoration: none;
-	outline: none;
+    text-decoration: none;
+    outline: none;
 }
 p{
-	margin:0;
+    margin:0;
 }
 .section-padding{
-	padding:100px 0;
-	padding:100px 0;
-	padding:10rem 0;
+    padding:100px 0;
+    padding:100px 0;
+    padding:100px 0;
+    padding:10rem 0;
 }
 /*===============================================================
-	=============  HEADER AREA CSS  =============
+    =============  HEADER AREA CSS  =============
 ===============================================================*/
 .header-area{
-	padding:15px 0;
-	padding:15px 0;
-	padding:1.5rem 0;
-	background:#fff;
+    padding:15px 0;
+    padding:15px 0;
+    padding:15px 0;
+    padding:1.5rem 0;
+    background:#fff;
 }
 .logo a img {
-	width:150px;
-	width: 15rem;
+    width:150px;
+    width:150px;
+    width: 15rem;
 }
 .menu ul {
     display: -webkit-box;
@@ -105,38 +110,41 @@ p{
             justify-content: flex-end;
 }
 .menu ul li {
-	margin:0 25px;
-	margin:0 25px;
-	margin: 0 2.5rem;
+    margin:0 25px;
+    margin:0 25px;
+    margin:0 25px;
+    margin: 0 2.5rem;
 }
 .menu ul li a {
-	display: inline-block;
-	font-weight: 700;
-	color: #000000;
-	-webkit-transition:.3s ease-in-out;
-	transition:.3s ease-in-out;
+    display: inline-block;
+    font-weight: 700;
+    color: #000000;
+    -webkit-transition:.3s ease-in-out;
+    transition:.3s ease-in-out;
 }
 .menu ul li a:hover{
-	color:#6C63FF;
+    color:#6C63FF;
 }
 .header-area.sticky {
-	position: fixed;
-	width: 100%;
-	padding: 1rem;
-	background: #bdbdbd;
-	z-index: 255;
+    position: fixed;
+    width: 100%;
+    padding:10px;
+    padding: 1rem;
+    background: #bdbdbd;
+    z-index: 255;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #6C63FF;
     background-color: unset;
 }
 /*===============================================================
-	=============  BANNER AREA CSS  =============
+    =============  BANNER AREA CSS  =============
 ===============================================================*/
 .banner-area {
     background: url(..//images/banner-bg.jpg) no-repeat;
     background-size: 98rem 62rem;
-	background-position: 182% 60%;
+    background-position: 182% 60%;
+    padding:160px 0;
     padding:160px 0;
     padding:160px 0;
     padding:16rem 0;
@@ -145,10 +153,12 @@ p{
     color: #000000;
     margin-bottom:15px;
     margin-bottom:15px;
+    margin-bottom:15px;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
 .banner-content h1 {
+    font-size:50px;
     font-size:50px;
     font-size:50px;
     font-size: 5rem;
@@ -157,12 +167,13 @@ p{
 }
 
 .banner-content p{
-	font-size:15px;
-	color:#000;
-	line-height: 20px;
-	margin:15px 0 35px;
-	margin:15px 0 35px;
-	margin:1.5rem 0 3.5rem;
+    font-size:15px;
+    color:#000;
+    line-height: 20px;
+    margin:15px 0 35px;
+    margin:15px 0 35px;
+    margin:15px 0 35px;
+    margin:1.5rem 0 3.5rem;
 }
 .banner-form form {
     display: -webkit-box;
@@ -170,6 +181,7 @@ p{
     display: flex;
 }
 .banner-form input[type="number"] {
+    padding:15px;
     padding:15px;
     padding:15px;
     padding: 1.5rem;
@@ -180,7 +192,8 @@ p{
     font-size: 15px;
 }
 .banner-form input[type="submit"] {
-	position:relative;
+    position:relative;
+    padding:15px;
     padding:15px;
     padding:15px;
     padding: 1.5rem;
@@ -195,24 +208,24 @@ p{
     width:40%;
     -webkit-transition:all .4s ease;
     transition: all .4s ease;
-	z-index:2;
+    z-index:2;
 }
 /* .banner-form input[type="submit"]:after{
-	position:absolute;
-	content:"";
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
+    position:absolute;
+    content:"";
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
     background: linear-gradient(55deg, #EF833C 40%, #da6c2d 40%);
-	z-index:-1;
-	opacity:0;
+    z-index:-1;
+    opacity:0;
     transition: all .4s ease;
 
-	
+    
 } */
 /* .banner-form input[type="submit"]:hover:after {
-	opacity:1;
+    opacity:1;
 } */
 /*-------------arrow hide-------------*/
 
@@ -229,60 +242,67 @@ input[type=number] {
 }
 
 /*===============================================================
-	=============  PERFE-CIRCLE AREA CSS  =============
+    =============  PERFE-CIRCLE AREA CSS  =============
 ===============================================================*/
 .section-heading h4,
 .carefully-car-content h4,
 .awesome-team-area h4,
 .blog-post-area h4{
-	margin:30px 0;
-	margin:30px 0;
-	margin:3rem 0;
-	letter-spacing: 5px;
-	line-height: 5px;
+    margin:30px 0;
+    margin:30px 0;
+    margin:30px 0;
+    margin:3rem 0;
+    letter-spacing: 5px;
+    line-height: 5px;
 }
 .section-heading p,
 .blog-post-area p{
-	font-size:18px;
-	color: #000;
-	font-weight: 400;
-	margin:15px 0;
-	margin:15px 0;
-	margin:1.5rem 0;
+    font-size:18px;
+    color: #000;
+    font-weight: 400;
+    margin:15px 0;
+    margin:15px 0;
+    margin:15px 0;
+    margin:1.5rem 0;
 }
 
 .perfect-circel-items {
     padding:30px;
     padding:30px;
+    padding:30px;
     padding: 3rem ;
-	border-radius: 5px;
-	-webkit-transition:all .4s ease;
-	transition: all .4s ease;
-	margin-bottom:20px;
-	margin-bottom:20px;
-	margin-bottom: 2rem;
+    border-radius: 5px;
+    -webkit-transition:all .4s ease;
+    transition: all .4s ease;
+    margin-bottom:20px;
+    margin-bottom:20px;
+    margin-bottom:20px;
+    margin-bottom: 2rem;
 }
 .perfect-circel-items:hover{
     box-shadow: 0px 3px 20px #bdbdbd;
 }
 .perfect-circles-area .per_ci_item .col-md-6:first-child .perfect-circel-items{
-	padding-left:0px;
+    padding-left:0px;
 }
 .perfect-circles-area .per_ci_item .col-md-6:nth-child(3) .perfect-circel-items{
-	padding-right:0px;
-	padding-left:50px;
-	padding-left: 5rem;
+    padding-right:0px;
+    padding-left:50px;
+    padding-left:50px;
+    padding-left: 5rem;
 }
 
 .perfect-circles-area .per_ci_item .col-md-6:nth-child(4) .perfect-circel-items{
-	padding-left:0px;
+    padding-left:0px;
 }
 .perfect-circles-area .per_ci_item .col-md-6:last-child .perfect-circel-items{
-	padding-right:0px;
-	padding-left:50px;
-	padding-left: 5rem;
+    padding-right:0px;
+    padding-left:50px;
+    padding-left:50px;
+    padding-left: 5rem;
 }
 .perfect-circe-conten {
+    max-width:300px;
     max-width:300px;
     max-width:300px;
     max-width: 30rem;
@@ -297,40 +317,43 @@ input[type=number] {
     line-height: 20px;
     margin:10px 0;
     margin:10px 0;
+    margin:10px 0;
     margin: 1rem 0;
 }
 .perfect-circe-conten p{
-	font-size: 15px;
-	color:#000;
-	line-height: 20px;
-	opacity: 80%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    font-size: 15px;
+    color:#000;
+    line-height: 20px;
+    opacity: 80%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 /*===============================================================
-	=============  CAREFULLY CRAFTED AREA CSS  =============
+    =============  CAREFULLY CRAFTED AREA CSS  =============
 ===============================================================*/
 
 .carefully-crafted-area .gx-5 {
     --bs-gutter-x:60px;
     --bs-gutter-x:60px;
+    --bs-gutter-x:60px;
     --bs-gutter-x: 6rem;
 }
 .carefully-car-video {
-	background: url(../images/play-bg.jpg) no-repeat scroll 0 0 / cover;
-	height:470px;
-	height:470px;
-	height: 47rem;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	opacity: .8;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    background: url(../images/play-bg.jpg) no-repeat scroll 0 0 / cover;
+    height:470px;
+    height:470px;
+    height:470px;
+    height: 47rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: .8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 .carefully-car-video a {
     display: -webkit-box;
@@ -338,10 +361,13 @@ input[type=number] {
     display: flex;
     width:50px;
     width:50px;
+    width:50px;
     width: 5rem;
     height:50px;
     height:50px;
+    height:50px;
     height: 5rem;
+    line-height:50px;
     line-height:50px;
     line-height:50px;
     line-height: 5rem;
@@ -358,25 +384,28 @@ input[type=number] {
 /*---------video content---------*/
 
 .carefully-car-content h4 {
-	margin-top:unset;
+    margin-top:unset;
 }
 .carefully-car-content p{
-	font-size: 18px;
-	color:#000;
-	font-weight: 400;
-	line-height: 30px;
-	margin-top:10px;
-	margin-top:10px;
-	margin-top: 1rem;
+    font-size: 18px;
+    color:#000;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:10px;
+    margin-top:10px;
+    margin-top:10px;
+    margin-top: 1rem;
 }
 .carefully-car-content .button{
-	margin-top:40px;
-	margin-top:40px;
-	margin-top: 4rem;
+    margin-top:40px;
+    margin-top:40px;
+    margin-top:40px;
+    margin-top: 4rem;
 }
 .carefully-car-content .button a {
     background: -webkit-linear-gradient(35deg, #da6c2d 40%, #EF833C 40%);
     background: linear-gradient(55deg, #da6c2d 40%, #EF833C 40%);
+    padding:15px;
     padding:15px;
     padding:15px;
     padding: 1.5rem;
@@ -385,44 +414,46 @@ input[type=number] {
     color: #fff;
     letter-spacing: 5px;
     display: inline-block;
-	-webkit-transition:all .4s ease;
-	transition: all .4s ease;
-	position:relative;
-	z-index:2;
+    -webkit-transition:all .4s ease;
+    transition: all .4s ease;
+    position:relative;
+    z-index:2;
 }
 .carefully-car-content .button a:after{
-	position:absolute;
-	content:"";
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+    position:absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
     background: -webkit-linear-gradient(35deg,  #EF833C 40%, #da6c2d 40% );
     background: linear-gradient(55deg,  #EF833C 40%, #da6c2d 40% );
-	z-index:-1;
-	opacity:0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	-webkit-transition:all .4s ease;
-	transition: all .4s ease;
+    z-index:-1;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition:all .4s ease;
+    transition: all .4s ease;
 }
 .carefully-car-content .button a:hover:after {
-	opacity:1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 /*===============================================================
-	=============  UPCOMINE-EVENT AREA CSS  =============
+    =============  UPCOMINE-EVENT AREA CSS  =============
 ===============================================================*/
 .upcoming-event-area{}
 
 .upcomint-content-items{
-	margin-bottom:30px;
-	margin-bottom:30px;
-	margin-bottom: 3rem;   
-	background: transparent;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom: 3rem;   
+    background: transparent;
 }
 .event-row{
-	margin:40px 0;
-	margin:4rem 0;
+    margin:40px 0;
+    margin:40px 0;
+    margin:4rem 0;
 }
 .upcoint-item {
     box-shadow: 0px 3px 15px #ddd;
@@ -436,6 +467,7 @@ input[type=number] {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    padding:20px;
     padding:20px;
     padding: 2rem;
     border: 1px solid #ddd;
@@ -458,40 +490,42 @@ input[type=number] {
     z-index: -1;
     opacity: 0;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	-webkit-transition:all .4s ease;
-	transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    transition:all .4s ease;
 }
 .upcoint-item p:hover:after{
-	opacity:1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .upcoint-item p i{
-	color:#000;
-	-webkit-transition:all .4s ease;
-	transition:all .4s ease;
+    color:#000;
+    -webkit-transition:all .4s ease;
+    transition:all .4s ease;
 }
 .upcoint-item p a{
-	font-size:15px;
-	color:#000;
-	font-weight: 700;
-	width:80%;
-	padding-left:20px;
-	padding-left:20px;
-	padding-left: 2rem;
-	-webkit-transition:all .4s ease;
-	transition:all .4s ease;
+    font-size:15px;
+    color:#000;
+    font-weight: 700;
+    width:80%;
+    padding-left:20px;
+    padding-left:20px;
+    padding-left:20px;
+    padding-left: 2rem;
+    -webkit-transition:all .4s ease;
+    transition:all .4s ease;
 }
 .upcomint-content-items:hover .upcoint-item p i,
 .upcomint-content-items:hover .upcoint-item p a{
-	color: #fff;
+    color: #fff;
 }
 .upcomint-content-items:hover .upcoint-item p span{
-	background: #fff;
-	opacity: 100%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    background: #fff;
+    opacity: 100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 .upcoint-item p span {
     background: #afadad;
+    padding:5px 10px;
     padding:5px 10px;
     padding:5px 10px;
     padding: .5rem 1rem;
@@ -514,14 +548,14 @@ input[type=number] {
     padding-right: 0;
 }
 /*===============================================================
-	=============  HEADER AREA CSS  =============
+    =============  HEADER AREA CSS  =============
 ===============================================================*/
 
 
 .testi-content{    
-	display: -webkit-box;    
-	display: -ms-flexbox;    
-	display: flex;
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -530,41 +564,48 @@ input[type=number] {
             align-items: center;
 }
 .testimonial p {
-	color: #000;
-	font-size: 40px;
-	line-height: 50px;
-	margin-right:20px;
-	margin-right: 2rem;
-	font-weight: 400;
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    margin-right:20px;
+    margin-right:20px;
+    margin-right: 2rem;
+    font-weight: 400;
 }
 .testimonial-img {
-	-webkit-box-flex:0;
-	    -ms-flex:0 0 150px;
-	        flex:0 0 150px;
-	-ms-flex:0 0 15rem;
-	    flex:0 0 15rem;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 150px;
+            flex:0 0 150px;
+    -ms-flex:0 0 150px;
+    -ms-flex:0 0 15rem;
+        flex:0 0 150px;
+        flex:0 0 15rem;
+    height:150px;
     height:150px;
     height: 15rem;
+    margin-right:10px;
     margin-right:10px;
     margin-right: 1rem;
 }
 .testimonial-img img {
-	width:100%;
-	height: 100%; 
-	-o-object-fit: cover; 
-	   object-fit: cover;
+    width:100%;
+    height: 100%; 
+    -o-object-fit: cover; 
+       object-fit: cover;
     border: 1px solid;
     border-radius: 50%;
 }
 .testimonial span{
-	font-size: 15px;
-	color:#000;
-	font-weight: 700;
+    font-size: 15px;
+    color:#000;
+    font-weight: 700;
+    margin-top:30px;
     margin-top:30px;
     margin-top: 3rem;
     display: inline-block;
 }
 .testimonial .quoat-img {
+    width:60px;
     width:60px;
     width: 6rem;
     height: auto;
@@ -573,7 +614,7 @@ input[type=number] {
 }
 
 /*===============================================================
-	=============  HEADER AREA CSS  =============
+    =============  HEADER AREA CSS  =============
 ===============================================================*/
 .team-member {
     display: -ms-grid;
@@ -583,8 +624,9 @@ input[type=number] {
     -webkit-column-gap: 3rem;
        -moz-column-gap: 3rem;
             column-gap: 3rem;
-	margin-top:40px;
-	margin-top:4rem;
+    margin-top:40px;
+    margin-top:40px;
+    margin-top:4rem;
 }
 .tema-items {
     display: -webkit-box;
@@ -594,17 +636,19 @@ input[type=number] {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom:30px;
+    margin-bottom:30px;
     margin-bottom: 3rem;
+    height:200px;
     height:200px;
     height: 20rem;
     width: 100%;
     border: 1px solid #ddd;
     -webkit-transition:.4s ease-in-out;
     transition: .4s ease-in-out;
-	position:relative;
-	background:#fff;
-	z-index:5;
-	
+    position:relative;
+    background:#fff;
+    z-index:5;
+    
 }
 .tema-items:after {
     position: absolute;
@@ -616,23 +660,24 @@ input[type=number] {
     background: -webkit-linear-gradient(335deg, #6C63FF 60%, #C27BF2);
     background: linear-gradient(115deg, #6C63FF 60%, #C27BF2);
     z-index: -1;
-	opacity:0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition:.4s ease-in-out;
     transition: .4s ease-in-out;
 }
 .tema-items:hover:after{
-	background: -webkit-linear-gradient(335deg, #6C63FF 60%, #C27BF2);
-	background: linear-gradient(115deg, #6C63FF 60%, #C27BF2);
-	opacity:1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	
+    background: -webkit-linear-gradient(335deg, #6C63FF 60%, #C27BF2);
+    background: linear-gradient(115deg, #6C63FF 60%, #C27BF2);
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
 } 
 .tema-items:hover .item-content h3,
 .tema-items:hover .item-content p{
-	color:#fff;
+    color:#fff;
 }
 .item-img {
+    width:200px;
     width:200px;
     width: 20rem;
     height: 100%;
@@ -642,17 +687,18 @@ input[type=number] {
     border-right: 1px solid #ddd;
 }
 .item-img img{
-	height:100%;
-	width:100%;
-	-o-object-fit: cover;
-	   object-fit: cover;
+    height:100%;
+    width:100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .item-content{
-	margin-left:40px;
-	margin-left: 4rem;
-	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 65%;
-	        flex: 0 0 65%;
+    margin-left:40px;
+    margin-left:40px;
+    margin-left: 4rem;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 65%;
+            flex: 0 0 65%;
 }
 
 .item-content h3 {
@@ -660,6 +706,7 @@ input[type=number] {
     color: #000;
     line-height: 27px;
     font-weight: 700;
+    margin-bottom:15px;
     margin-bottom:15px;
     margin-bottom: 1.5rem;-webkit-transition:all .4s ease;transition: all .4s ease;
 }
@@ -670,22 +717,24 @@ input[type=number] {
     font-weight: 400;-webkit-transition:all .4s ease;transition: all .4s ease;
 }
 /*===============================================================
-	=============  BLOG AREA CSS  =============
+    =============  BLOG AREA CSS  =============
 ===============================================================*/
 .blog-row{
-	margin-top:40px;
-	margin-top:4rem;
+    margin-top:40px;
+    margin-top:40px;
+    margin-top:4rem;
 }
 .single-blog-items {
     box-shadow: 0px 3px 30px #ddd;
 }
 .blog-content {
     padding:20px 25px;
+    padding:20px 25px;
     padding: 2rem 2.5rem;
 }
 .blog-img {
     width: 100%; 
-	height: auto;
+    height: auto;
 }
 .blog-img img {
     width: 100%;
@@ -712,6 +761,7 @@ input[type=number] {
 }
 .blog-content-head p i {
     margin-right:10px;
+    margin-right:10px;
     margin-right: 1rem;
 }
 
@@ -720,29 +770,30 @@ input[type=number] {
     font-weight: 700;
     line-height: 40px;
     margin:10px 0 30px;
+    margin:10px 0 30px;
     margin: 1rem 0 3rem;
 }
 .blog-content-body h2 a{
-	color:#000;
-	-webkit-transition:all .4s ease;
-	transition:all .4s ease;
+    color:#000;
+    -webkit-transition:all .4s ease;
+    transition:all .4s ease;
 }
 .blog-content-body h2 a:hover{
-	color:#6C63FF;
+    color:#6C63FF;
 }
 .blog-content-body > a {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     color: #256ECE;
-	-webkit-transition:all .4s ease;
-	transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    transition:all .4s ease;
 }
 .blog-content-body > a:hover{
-	color:#000;
+    color:#000;
 }
 /*===============================================================
-	=============  	HEROW AREA CSS  =============
+    =============   HEROW AREA CSS  =============
 ===============================================================*/
 .hero {
     display: -webkit-box;
@@ -757,6 +808,7 @@ input[type=number] {
 }
 section.hero-area {
     padding:50px 0;
+    padding:50px 0;
     padding: 5rem 0;
     background: -webkit-linear-gradient(45deg, #6C63FF 60%, #C77CF1);
     background: linear-gradient(45deg, #6C63FF 60%, #C77CF1);
@@ -769,59 +821,64 @@ section.hero-area {
 }
 .hero-form {
     max-width:650px;
+    max-width:650px;
     max-width: 65rem;
     width: 100%;
 }
 .hero-form  form{
-	width:100%;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
+    width:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
 }
 .hero-form input[type="email"] {
+    padding:15px;
     padding:15px;
     padding: 1.5rem;
     font-size: 15px;
     font-weight: 600;
     width:100%;
-	border:none;
-	outline:none;
+    border:none;
+    outline:none;
 }
 .hero-form input[type="submit"] {
     font-size: 22px;
     font-weight: 700;
     width:140px;
+    width:140px;
     width: 14rem;;
+    padding:10px;;
     padding:10px;;
     padding: 1rem;
     line-height: 30px;
     border: none;
-	color:#fff;
+    color:#fff;
     outline: none;
-	background: -webkit-linear-gradient(20deg, #EE7A37 50%, #FDDB71 );
-	background: linear-gradient(70deg, #EE7A37 50%, #FDDB71 );
+    background: -webkit-linear-gradient(20deg, #EE7A37 50%, #FDDB71 );
+    background: linear-gradient(70deg, #EE7A37 50%, #FDDB71 );
 }
 ::-webkit-input-placeholder{
-	opacity:20%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    opacity:20%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 ::-moz-placeholder{
-	opacity:20%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    opacity:20%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 :-ms-input-placeholder{
-	opacity:20%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    opacity:20%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 ::placeholder{
-	opacity:20%;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+    opacity:20%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
 }
 /*===============================================================
-	=============  FOOTER AREA CSS  =============
+    =============  FOOTER AREA CSS  =============
 ===============================================================*/
 
 .footer-area .gx-5 {
+    --bs-gutter-x:60px;
     --bs-gutter-x:60px;
     --bs-gutter-x: 6rem;
 }
@@ -831,6 +888,7 @@ section.hero-area {
     line-height: 24px;
     color: #000;
     margin-bottom:40px;
+    margin-bottom:40px;
     margin-bottom: 4rem;
 }
 .footer-item p {
@@ -839,11 +897,14 @@ section.hero-area {
     line-height: 20px;
     font-weight: 400;
     max-width:200px;
+    max-width:200px;
     max-width: 20rem;
+    margin-bottom:20px;
     margin-bottom:20px;
     margin-bottom: 2rem;
 }
 .footer-item ul li i {
+    width:30px;
     width:30px;
     width: 3rem;
     font-size: 18px;
@@ -866,9 +927,11 @@ section.hero-area {
         -ms-flex-align: center;
             align-items: center;
     margin-top:40px;
+    margin-top:40px;
     margin-top: 4rem;
 }
 .footer-item .button a {
+    padding:15px 20px;
     padding:15px 20px;
     padding: 1.5rem 2rem;
     width: 100%;
@@ -879,30 +942,30 @@ section.hero-area {
     color: #000;
     font-weight: 400;
     line-height: 20px;
-	-webkit-transition:.4s ease-in-out;
-	transition:.4s ease-in-out;
-	position:relative;
-	z-index:2;
+    -webkit-transition:.4s ease-in-out;
+    transition:.4s ease-in-out;
+    position:relative;
+    z-index:2;
 }
 .footer-item .button a:after{
-	position:absolute;
-	content:"";
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
-	background: -webkit-linear-gradient(20deg, #EE7A37 50%, #FDDB71 );
-	background: linear-gradient(70deg, #EE7A37 50%, #FDDB71 );
-	z-index:-1;
-	opacity:0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	-webkit-transition:.4s ease-in-out;
-	transition:.4s ease-in-out;
+    position:absolute;
+    content:"";
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: -webkit-linear-gradient(20deg, #EE7A37 50%, #FDDB71 );
+    background: linear-gradient(70deg, #EE7A37 50%, #FDDB71 );
+    z-index:-1;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition:.4s ease-in-out;
+    transition:.4s ease-in-out;
 }
 .footer-item .button a:hover:after{
-	opacity:1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .footer-item .button a:hover{
-	color:#fff;
+    color:#fff;
 }

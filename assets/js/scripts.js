@@ -9,8 +9,10 @@ $(document).ready(function(){
 	});
 	
 	// responsive menu
-	$('.toggle-menu-icon').click(function(){
-		$('.menu ').slideToggle(1000);
+	$('.nav-icon').click(function(){
+		$('.menu').slideToggle(1000);
+
+		return false;
 	});
 	
 	// video popup
@@ -38,5 +40,5 @@ $(window).scroll(function(){
 	}else{
 		$('header').removeClass('sticky');
 	}
-
+	return false;
 });  
